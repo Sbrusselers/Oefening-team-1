@@ -2,8 +2,8 @@
 
 **Objective**: Engage in a collaborative data analysis project using Databricks notebooks, integrated with GitHub for version control and team collaboration.
 
-**Project Case:
-**Perform a simple data analysis task using a Python notebook in Databricks, such as analyzing a publicly available dataset and creating basic visualizations.
+**Project Case**:
+Perform a simple data analysis task using a Python notebook in Databricks, such as analyzing a publicly available dataset and creating basic visualizations.
 
 Preparation
 Split into teams of 3-4. Assign roles:
