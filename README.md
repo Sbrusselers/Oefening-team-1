@@ -1,4 +1,4 @@
-# test-repo
+# Oefening
 
 **Objective**: Engage in a collaborative data analysis project using Databricks notebooks, integrated with GitHub for version control and team collaboration.
 
