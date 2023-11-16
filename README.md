@@ -16,7 +16,8 @@ Ensure all team members have access to Databricks and understand the basics of u
 **Create a GitHub repository**:
 
 The Release Manager creates a new public repository on GitHub, named DataAnalysisProject.
-Add a README.md file with a brief project description: "A collaborative data analysis project using Databricks and Python."
+Add a README.md file with a brief project description: "A collaborative data analysis project using Databricks and Python.
+
 **Exercise Steps**
 
 **1. Release Manager**:
