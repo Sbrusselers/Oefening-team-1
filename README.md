@@ -1,6 +1,4 @@
 # test-repo
-Detailed Team Exercise with Python and Databricks Integration
-Duration: 30-40 min
 
 **Objective**: Engage in a collaborative data analysis project using Databricks notebooks, integrated with GitHub for version control and team collaboration.
 
