@@ -9,8 +9,10 @@ Preparation
 Split into teams of 3-4. Assign roles:
 
 **Release Manager**: 
-Manages the GitHub repository, reviews, and merges pull requests.
-Developer 1, 2, and 3: Each has specific tasks in the development of the notebook.
+Manages the GitHub repository, reviews, and merges pull requests. Onboard everyone to databricks with tokens
+
+**Developer 1, 2, and 3**: 
+Each has specific tasks in the development of the notebook.
 Ensure all team members have access to Databricks and understand the basics of using notebooks in Databricks.
 
 **Create a GitHub repository**:
