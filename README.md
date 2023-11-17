@@ -5,21 +5,22 @@
 **Project Case**:
 Perform a simple data analysis task using a Python notebook in Databricks, such as analyzing a publicly available dataset and creating basic visualizations.
 
-Preparation
+**Preparation**
 Split into teams of 3-4. Assign roles:
 
-**Release Manager**: 
+**Release Managers (Martijn/Sussanne/Jasper)**:
 Manages the GitHub repository, reviews, and merges pull requests. Onboard everyone to databricks with tokens
 
 **Specialist 1, 2, and 3**: 
 Each has specific tasks in the development of the notebook.
 Ensure all team members have access to Databricks and understand the basics of using notebooks in Databricks.
 
+# Op voorhand doen en dit stukje verwijderen
 **Create a GitHub repository**:
 
 The Release Manager creates a new public repository on GitHub, named DataAnalysisProject.
 Add a README.md file with a brief project description: "A collaborative data analysis project using Databricks and Python."
-
+--------------------------------------------------------------------------------------------------------------------------------------------------------
 **Exercise Steps**
 
 **1. Release Managers (Martijn/Sussanne/Jasper)**:
