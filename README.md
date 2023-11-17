@@ -27,12 +27,13 @@ Add a README.md file with a brief project description: "A collaborative data ana
 
 Add all team members as collaborators to the GitHub repository.
 In Databricks, link the workspace to the DataAnalysisProject repository (via Repos).
+Share the URL with your group.
 
 **2. All specialist:**
 
-Accept the repository collaboration invitation.
+Accept the repository collaboration invitation .
 Clone the DataAnalysisProject repository in their Databricks workspace.
-Databricks -> Repos -> Oefening -> Add -> Add repo - > insert Github repo URL / Select Github as provider / Insert the Repo name 
+Databricks -> Repos -> Oefening -> Add -> Add repo - > insert Github repo URL (the rest of the fields should adjust accordingly).
 
 **3. Specialist 1 (Data Loading and Preparation):**
 
