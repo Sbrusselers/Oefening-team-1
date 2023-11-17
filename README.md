@@ -32,6 +32,7 @@ In Databricks, link the workspace to the DataAnalysisProject repository (via Rep
 
 Accept the repository collaboration invitation.
 Clone the DataAnalysisProject repository in their Databricks workspace.
+Databricks -> Repos -> Oefening -> Add -> Add repo - > insert Github repo URL / Select Github as provider / Insert the Repo name 
 
 **3. Specialist 1 (Data Loading and Preparation):**
 
