@@ -16,7 +16,7 @@ Each has specific tasks in the development of the notebook.
 Ensure all team members have access to Databricks and understand the basics of using notebooks in Databricks.
 
 # Op voorhand doen en dit stukje verwijderen
-**Create a GitHub repository**:
+Create a GitHub repository:
 
 The Release Manager creates a new public repository on GitHub, named DataAnalysisProject.
 Add a README.md file with a brief project description: "A collaborative data analysis project using Databricks and Python."
