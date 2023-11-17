@@ -1,5 +1,5 @@
 # Oefening
-**Need to:
+**Need to**:
 - Release managers alvast een repo maken voor deze oefening zodat het vloeiend gaat op dinsdag.
 - Link maken Databricks Github
 **
