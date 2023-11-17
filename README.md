@@ -1,8 +1,5 @@
 # Oefening
-**Need to**:
-- Release managers alvast een repo maken voor deze oefening zodat het vloeiend gaat op dinsdag.
-- Link maken Databricks Github
-**
+
 **Objective**: Engage in a collaborative data analysis project using Databricks notebooks, integrated with GitHub for version control and team collaboration.
 
 **Project Case**:
