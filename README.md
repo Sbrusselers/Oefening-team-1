@@ -33,7 +33,7 @@ Verdeel in teams van 3-4 personen. Wijs rollen toe:
 -------------------------------------------------------------------------------------------------------------------------------------------------
 # Stappen van de Oefening
 
-**1. Release Managers (Martijn/Sussanne/Jasper):**
+**1. Release Managers (Martijn/Susanna/Jasper):**
    - Voeg alle teamleden toe als medewerkers aan de GitHub-repository.
    - Link in Databricks de werkruimte aan de aangemaakte repository (via Repos).
    - Deel de URL van de repository met je groep.
