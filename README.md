@@ -23,6 +23,13 @@ Verdeel in teams van 3-4 personen. Wijs rollen toe:
 - Kloon de "TeamInfoProject" repository in hun Databricks-werkruimte.
 - Voeg hun naam, GitHub-gebruikersnaam en afdeling toe aan hetzelfde notebook, onder de gegevens van de Release Manager.
 - Commit en push de wijzigingen naar de GitHub-repository.
+
+**Gebruik deze format om de informatie toe te voegen aan de notebooks**:
+    name: "NAME_HERE" 
+    github username: "USERNAME_HERE"
+    email: "MAIL_HERE" 
+    department: "DEPARTMENT_HERE" 
+
 -------------------------------------------------------------------------------------------------------------------------------------------------
 # Stappen van de Oefening
 
