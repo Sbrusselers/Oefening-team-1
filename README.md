@@ -23,12 +23,30 @@ Verdeel in teams van 3-4 personen. Wijs rollen toe:
 - Voeg hun naam, GitHub-gebruikersnaam en afdeling toe aan hetzelfde notebook, onder de gegevens van de Release Manager.
 - Commit en push de wijzigingen naar de GitHub-repository.
 
-**Gebruik deze format om de informatie toe te voegen aan de notebooks**:
-    name: "NAME_HERE" 
-    github username: "USERNAME_HERE"
-    email: "MAIL_HERE" 
-    department: "DEPARTMENT_HERE" 
-
+# Gebruik deze format om de informatie toe te voegen aan de notebooks:
+---
+team:
+  id: 3d450ad6-4e92-4f05-91d8-6f276f76fcfb
+  name: team-kubernetes
+  area: Platform-Services
+  description: Kubernetes-as-a-Service (KaaS)
+  members:
+    - name: John Doe
+      upn: pnlx01x1@emea.royalahold.net
+      roles:
+        - member
+    - name: Jane Doe
+      upn: pnlx010x@emea.royalahold.net
+      roles:
+        - member
+    - name: John Doe
+      upn: pnlx010x@emea.royalahold.net
+      roles:
+        - member
+    - name: Jane Doe
+      upn: pnlx010x@emea.royalahold.net
+      roles:
+        - member
 -------------------------------------------------------------------------------------------------------------------------------------------------
 # Stappen van de Oefening
 
