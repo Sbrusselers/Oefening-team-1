@@ -1,74 +1,65 @@
 # Oefening
 
-**Objective**: Engage in a collaborative data analysis project using Databricks notebooks, integrated with GitHub for version control and team collaboration.
+**Doelstelling**:
+Deelnemen aan een samenwerkingsproject waarbij teamleden hun persoonlijke informatie toevoegen aan een notebook binnen een Databricks-omgeving, geïntegreerd met een GitHub-repository voor versiebeheer en samenwerking.
 
-**Project Case**:
-Perform a simple data analysis task using a Python notebook in Databricks, such as analyzing a publicly available dataset and creating basic visualizations.
+**Projectcasus**:
+Elk teamlid voegt zijn of haar naam, GitHub-gebruikersnaam en afdeling (PNL) toe aan een gezamenlijk notebook in Databricks.
 
-**Preparation**
-Split into teams of 3-4. Assign roles:
+**Voorbereiding**:
+Verdeel in teams van 3-4 personen. Wijs rollen toe:
 
 **Release Managers (Martijn/Sussanne/Jasper)**:
-Manages the GitHub repository, reviews, and merges pull requests. Onboard everyone to databricks with tokens
 
-**Specialist 1, 2, and 3**: 
-Each has specific tasks in the development of the notebook.
-Ensure all team members have access to Databricks and understand the basics of using notebooks in Databricks.
+- Maak een nieuwe openbare GitHub-repository aan, genaamd "TeamInfoProject".
+- Voeg een README.md-bestand toe met een deze tekst.
+- Link de Databricks-werkruimte aan de "TeamInfoProject" repository (via Repos).
+- Maak een nieuw notebook in Databricks binnen de "TeamInfoProject" repository.
+- Deel de URL van de repository met het team.
+  
+**Specialist 1, 2 en 3**:
 
-# Op voorhand doen en dit stukje verwijderen
-# Create a GitHub repository:
+- Accepteer de uitnodiging voor samenwerking aan de repository.
+- Kloon de "TeamInfoProject" repository in hun Databricks-werkruimte.
+- Voeg hun naam, GitHub-gebruikersnaam en afdeling toe aan hetzelfde notebook, onder de gegevens van de Release Manager.
+- Commit en push de wijzigingen naar de GitHub-repository.
+-------------------------------------------------------------------------------------------------------------------------------------------------
+# Stappen van de Oefening
 
-The Release Manager creates a new public repository on GitHub, named DataAnalysisProject.
-Add a README.md file with a brief project description: "A collaborative data analysis project using Databricks and Python."
---------------------------------------------------------------------------------------------------------------------------------------------------------
-**Exercise Steps**
+**1. Release Managers (Martijn/Sussanne/Jasper):**
+   - Voeg alle teamleden toe als medewerkers aan de GitHub-repository.
+   - Link in Databricks de werkruimte aan de aangemaakte repository (via Repos).
+   - Deel de URL van de repository met je groep.
 
-**1. Release Managers (Martijn/Sussanne/Jasper)**:
+**2. Alle Specialisten:**
+   - Accepteer de uitnodiging voor samenwerking aan de repository.
+   - Kloon de repository in hun Databricks-werkruimte via Repos.
 
-Add all team members as collaborators to the GitHub repository.
-In Databricks, link the workspace to the DataAnalysisProject repository (via Repos).
-Share the URL with your group.
+**3. Specialist 1 (Persoonlijke Informatie Toevoegen):**
+   - Maak in Databricks een nieuwe branch aan, genaamd 'personal-info-1'.
+   - Maak een nieuw notebook in deze branch, voeg je naam, GitHub-gebruikersnaam en afdeling (PNL) toe.
+   - Commit en push het notebook naar de 'personal-info-1' branch met behulp van Databricks' Git-functies.
+   - Gebruik Databricks om een pull request te initiëren voor het mergen van 'personal-info-1' naar de hoofdbranch.
 
-**2. All specialist:**
+**4. Specialist 2 (Persoonlijke Informatie Toevoegen):**
+   - Wacht tot 'personal-info-1' is gemerged.
+   - Maak een nieuwe branch 'personal-info-2', voeg je informatie toe aan het notebook.
+   - Commit en push naar 'personal-info-2'.
+   - Initieer via Databricks een pull request voor het mergen naar de hoofdbranch.
 
-Accept the repository collaboration invitation .
-Clone the DataAnalysisProject repository in their Databricks workspace.
-Databricks -> Repos -> Oefening -> Add -> Add repo - > insert Github repo URL (the rest of the fields should adjust accordingly).
-
-**3. Specialist 1 (Data Loading and Preparation):**
-
-In Databricks, create a new branch named data-setup.
-Create a new notebook in this branch named Data_Setup.
-Write Python code to load a dataset (e.g., using Pandas to load a CSV file from a public URL).
-Include basic data preparation steps (e.g., handling missing values, basic filtering).
-Commit and push the notebook to the data-setup branch using Databricks' Git features.
-On GitHub, open a pull request to merge data-setup into the main branch.
-
-**4. Specialist 2 (Data Analysis):**
-
-Wait for the data-setup branch to be merged by the Release Manager.
-Create a new branch from main, named data-analysis.
-Create or continue the notebook, now named Data_Analysis.
-Perform basic data analysis, such as computing summary statistics or generating simple plots.
-Commit and push these changes to the data-analysis branch.
-On GitHub, open a pull request to merge data-analysis into the main branch.
-
-**5. Specialist 3 (Documentation and Insights):**
-
-Wait for the data-analysis branch to be merged by the Release Manager.
-Create a new branch from main, named documentation.
-Update the README.md file with detailed project insights and how to run the analysis.
-Optionally, add additional comments or markdown cells in the Data_Analysis notebook to explain the analysis steps.
-Commit and push these changes to the documentation branch.
-On GitHub, open a pull request to merge documentation into the main branch.
+**5. Specialist 3 (Persoonlijke Informatie Toevoegen):**
+   - Wacht tot 'personal-info-2' is gemerged.
+   - Maak een nieuwe branch 'personal-info-3', voeg je informatie toe.
+   - Commit en push naar 'personal-info-3'.
+   - Initieer een pull request via Databricks.
 
 **6. Release Manager:**
+   - Review en merge pull requests sequentieel in Databricks: 'personal-info-1', 'personal-info-2', 'personal-info-3'.
+   - Zorg voor correcte integratie en los merge-conflicten op.
 
-Sequentially review and merge pull requests: first data-setup, then data-analysis, and finally documentation.
-Ensure the changes are correctly integrated and resolve any merge conflicts if they arise.
+**Belangrijke Opmerkingen:**
+   - Communicatie en coördinatie zijn essentieel.
+   - Wacht op de merge van voorgaande branches voordat je verdergaat met afhankelijke taken om conflicten te voorkomen en consistentie te   garanderen.
 
-**Important Notes:**
-Specialists should regularly communicate and coordinate, especially if one task depends on the completion of another.
-It’s important to wait for the necessary branches to be merged before proceeding with dependent tasks to avoid merge conflicts and ensure data consistency.
 
 
