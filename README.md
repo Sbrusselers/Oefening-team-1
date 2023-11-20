@@ -13,7 +13,6 @@ Verdeel in teams van 3-4 personen. Wijs rollen toe:
 
 - Maak een nieuwe openbare GitHub-repository aan, genaamd "TeamInfoProject".
 - Voeg een README.md-bestand toe met een deze tekst.
-- Link de Databricks-werkruimte aan de "TeamInfoProject" repository (via Repos).
 - Maak een nieuw notebook in Databricks binnen de "TeamInfoProject" repository.
 - Deel de URL van de repository met het team.
   
